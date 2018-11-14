@@ -1,0 +1,74 @@
+Types of Operating Systems :-
+	1. Batch Operating System 2. Time-Sharing Operating Systems 3. Distributed Operating System 4. Network Operating System
+	5. Real-Time Operating System
+
+1. Batch Operating System �
+	This type of operating system do not interact with the computer directly. It is the responsibility of operator to sort the jobs with similar needs.
+    Eg: Payroll System, Bank Statements etc.
+
+2. Time-Sharing Operating Systems �
+	 Each task has given some time to execute, so that all the tasks work efficiently. These systems are also known as Multitasking Systems. 
+      Advantages - less chances of duplication of software. Disadvantages - Data Communication problem.
+      Eg. Multics, Unix etc
+
+3. Distributed Operating System � 
+	Independent systems possess their own memory unit and CPU.These are referred as loosely coupled systems or distributed systems.
+      Advantages - Electronic mail increases the data exchange speed. Disadvantages -  Failure of the main network will stop the entire communication.
+      Eg.LOCUS.
+
+4. Network Operating System �
+ 	These systems runs on a server and provides the capability to manage data, users, groups, security, applications, and other networking functions.
+     Advantages - It is new technologies and hardware up-gradation are easily integrated to the system. Disadvantage -depend on central location for most operations.
+     Eg. Microsoft Windows Server 2008, UNIX, Linux, Mac OS X
+			     
+5. Real-Time Operating System �
+	The time interval required to process and respond to inputs is very small. This time interval is called response time.
+        They are 2 tyeps	   1) Hard Real-Time Systems       2) Soft Real-Time Systems
+         Eg. Scientific experiments, industrial control systems, weapon systems, robots etc.
+................................................................................................................................................................................................................................................................................
+
+Multiprocessing :-
+            -> Multiprocessing is adding more number of or CPUs/processors to the system which increases the computing speed of the system.
+            -> Multiprocessing can be classified as symmetric multiprocessing and asymmetric multiprocessing. 
+            -> In symmetric multiprocessing, all processors are free to run any process in a system.
+            -> In Asymmetric multiprocessing, there is a master-slave relationship among the processors.
+
+Multithreading :-
+            ->  Multithreading is allowing a process to create more threads which increase the responsiveness of the system.
+            ->  Multiple threads of a single process are executed concurrently.
+
+Thread :-
+            ->  A thread of a process means a code segment of a process, which has its own thread ID, program counter, registers and stack and can execute independently.
+..................................................................................................................................................................................................................................................................................
+          
+Multi Thread :-
+            -> Multithread or Multithreading is used while describing CPU threads.
+            -> Multithreading is allowing a process to create more threads which increase the responsiveness of the system. Multiple threads of a single process are executed concurrently.
+            -> Posix threads are available for Unix like operating systems.
+
+Single Thread :-
+             -> Systems with a single processor generally implement multithreading by time slicing.
+             -> The asynchronous processing on a single thread could provide more performance and scalability under typical web loads than the typical thread-based implementation.
+................................................................................................................................................................................................................................................................................
+
+V8 Engine :-
+            -> Chrome V8, or simply V8, is an open-source JavaScript engine.
+            -> It has also been used in Couchbase, MongoDB and Node.js that are used server-side.
+   Process :-
+          1) V8 compiles JavaScript directly to native machine code before executing the whole program
+          2) The whole program to machine code and executing it from a filesystem. 
+          3) The compiled code is additionally optimized dynamically at runtime, based on process of the code's execution profile. 
+         4) Optimization techniques used include inline caching. 
+
+................................................................................................................................................................................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
