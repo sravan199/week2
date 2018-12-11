@@ -1,0 +1,11 @@
+Bluebird :
+	Bluebird is a fully-featured Promise library for JavaScript. The strongest feature of Bluebird is that it allows you to "promisify" other Node modules
+ in order to use them asynchronously. Promisify is a concept applied to callback functions. This concept is used to ensure that every callback function which is
+ called returns some sort of value.
+
+So if a Node JS module contains a callback function which does not return a value, if we Promisify the node module, all the function's in that specific node
+module would automatically be modified to ensure that it returns a value.So you can use BlueBird to make the MongoDB module run asynchronously. 
+This just adds another level of ease when writing Node.js applications.
+
+Catiline :
+	Mostly designed for handling of web workers but contains a promise implementation. Uses lie underneath.

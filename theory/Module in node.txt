@@ -1,0 +1,29 @@
+Module :
+
+Module in Node.js is a simple or complex functionality organized in single or multiple JavaScript files which can be reused throughout the Node.js application.
+Each module in Node.js has its own context, so it cannot interfere with other modules or pollute global scope. Also, each module can be placed in a separate .js
+file under a separate folder.Node.js implements CommonJS modules standard. CommonJS is a group of volunteers who define JavaScript standards for web
+server, desktop, and console application.
+
+Node.js Module Types
+
+Node.js includes three types of modules:
+
+	Core Modules
+	Local Modules
+	Third Party Modules
+Core Modules
+	Node.js is a light weight framework. The core modules include bare minimum functionalities of Node.js. These core modules are compiled into its 
+binary distribution and load automatically when Node.js process starts. However,they  need to be import the core module first in order to use it in application.
+
+Core Module	Description
+http		http module includes classes, methods and events to create Node.js http server.
+url		url module includes methods for URL resolution and parsing.
+querystring		querystring module includes methods to deal with query string.
+path		path module includes methods to deal with file paths.
+fs		fs module includes classes, methods, and events to work with file I/O.
+util		util module includes utility functions useful for programmers.
+
+Loading Local Module :
+		To use local modules in your application, you need to load it using require() function in the same way as core module. However, you
+ need to specify the path of JavaScript file of the module.

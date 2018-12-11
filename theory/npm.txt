@@ -1,0 +1,43 @@
+NPM:
+	npm is the world's largest Software Registry.The registry contains over 800,000 code packages.Open-source developers use npm to share software.
+
+Node Package Manager (NPM) provides two main functionalities -
+1.Online repositories for node.js packages/modules which are searchable on search.nodejs.org
+2.Command line utility to install Node.js packages, do version management and dependency management of Node.js packages.
+
+
+Installing npm modules  by typing command:
+npm install module_name
+
+Express -	 Express is the leading Node.js framework for quickly creating and publishing applications, and APIs. The frameworks minimal structure allows any 
+	Node.js developer to quickly launch a functional application with the use of Express Generator. Express gives you a solid outline to
+ 	build your apps on top of.
+
+Async.js -	 Asynchronous JavaScript has rebuilt the way JavaScript content interacts with your web pages, allowing you to increase performance by getting rid
+	 of render-blocking JavaScript. Render-blocking basically means that any JavaScript content that resides in the “above the fold” parts of a page will 
+	not be loaded, until JavaScript itself has been finished loading in the page. This can have certain effects on the performance of your website, but with 
+	the helps of libraries such as Async.js — you can open the door to load JavaScript content alongside everything else, sometimes even faster.
+
+Request – 	Simplified HTTP Client
+
+Browserify - There are many uses for Browserify, but the most important one is that Browserify allows us to create the kind of client-side codebase that’s
+	 organized, structured, and easy to navigate. Anyone can use Browserify to create solid components that quickly allocate dependencies according to 
+	their use at any particular situation. Node.js projects tend to stack up on packages, libraries and scripts, and Browserify helps to structure everything
+	 neatly together
+
+Socket.IO -	 Socket lets you build truly real-time communication apps that would require real-time streams of content, whether directly from the data that you
+	 are working with, or through an API that comes from an external source. 
+
+Commander.js - Commander.js (based on Ruby) is a great solution for creating command-line interfaces without any fuss.
+
+Bower - Bower carefully allocates all the packages that you are using, and then helps you to keep the updated, and regularly checked against any potential risks.
+
+Underscore - Underscore bridges the gap between opening a new HTML document and writing code for it, without the need to think how complex functions
+	 operate.
+
+UglifyJS2 - UglifyJS2 trims and minifies your JavaScript files for you automatically. 
+
+Hapi - 	Hapi can be used to build robust APIs, to handle high-load projects that need to scale, and Hapi delivers the kind of modular design that helps to 
+	align your project together. Flexibility is key in development
+
+React (UI framework)- React with Node.js makes for an amazingly fast web application experience
