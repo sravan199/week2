@@ -2,7 +2,7 @@
 var fs = require('fs');
  
 var file1=fs.readFileSync('read1.txt', 'utf8',); 
-fs.writeFileSync('writeFile1.txt')
+fs.writeFileSync('writeFile1.txt',file1)
   console.log("writeFile1 created");
  
 var file2=fs.readFileSync('read2.txt', 'utf8');
