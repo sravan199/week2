@@ -1,0 +1,42 @@
+<div class="container">
+  <h1>My Angular App</h1>
+    <table>
+    <tr>
+        <th>
+            Index
+          </th>
+    <th>
+      ID
+    </th>
+      <th>
+       Full Name
+      </th>
+      <th>
+        Section
+      </th>
+      <th>
+         Year
+      </th>
+    </tr>
+
+
+      <tr *ngFor="let data of stdd;let i = index">
+        <td>
+          {{i+1}}
+        </td>
+        <td>
+          {{data.id}}
+        </td>
+        <td>
+          {{data.firstName + " "+data.lastName}} 
+        </td>
+        <td>
+          {{data.section}}
+            </td>
+            <td>
+          {{data.year}}
+                </td>
+      </tr>
+    </table>
+
+</div>
